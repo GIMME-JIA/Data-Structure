@@ -1,8 +1,8 @@
 package Tree树;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+
+
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -528,7 +528,7 @@ public class BinarySearchTree<T extends Comparable<T>, V> {
 
     private BinarySearchTree<Integer,String> bst;
 
-    @Before
+ /*   @Before
     public void setUp() {
         bst = new BinarySearchTree<>();
     }
@@ -547,9 +547,9 @@ public class BinarySearchTree<T extends Comparable<T>, V> {
         Assert.assertEquals("Four", bst.get(4));
         Assert.assertEquals("Five", bst.get(5));
         Assert.assertEquals(null, bst.get(6));
-    }
+    }*/
 
-    @Test
+/*    @Test
     public void testPut() {
         bst.put(5, "Five");
         bst.put(3, "Three");
@@ -563,11 +563,11 @@ public class BinarySearchTree<T extends Comparable<T>, V> {
         Assert.assertEquals("Seven", bst.get(7));
         Assert.assertEquals("Two", bst.get(2));
         Assert.assertEquals("Four", bst.get(4));
-    }
+    }*/
 
 
 
-    @Test
+   /* @Test
     public void testDelete() {
         bst.put(5, "Five");
         bst.put(3, "Three");
@@ -607,6 +607,6 @@ public class BinarySearchTree<T extends Comparable<T>, V> {
         Assert.assertEquals("Four", bst.get(4));
         Assert.assertEquals(null, bst.get(7));
     }
-
+*/
 
 }

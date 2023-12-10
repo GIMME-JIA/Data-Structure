@@ -1,8 +1,9 @@
 package 排序算法;
 
-import org.junit.Test;
 
-import static org.junit.Assert.assertArrayEquals;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 /**
  * 归并+插排

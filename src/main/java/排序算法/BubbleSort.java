@@ -1,9 +1,7 @@
 package 排序算法;
 
 
-import org.junit.Test;
 
-import static org.junit.Assert.assertArrayEquals;
 
 public class BubbleSort {
     /**

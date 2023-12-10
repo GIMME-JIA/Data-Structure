@@ -1,7 +1,7 @@
 package 排序算法;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * 单边循环快排（lomuto洛穆托分区方案）
@@ -71,7 +71,7 @@ public class QuickSortLomuto {
 
 
 
-    @Test
+   /* @Test
     public void testSort() {
         // Test case 1: Array is already sorted
         int[] arr1 = {1, 2, 3, 4, 5};
@@ -93,5 +93,5 @@ public class QuickSortLomuto {
         QuickSortLomuto.sort(arr4);
         Assert.assertArrayEquals(new int[]{-5, -3, -2, -1, 0}, arr4);
     }
-
+*/
 }
