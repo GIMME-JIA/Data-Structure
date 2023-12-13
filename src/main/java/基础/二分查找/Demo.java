@@ -1,11 +1,9 @@
 package 基础.二分查找;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
-public class a {
+public class Demo {
     public static void main(String[] args) throws ParseException {
         //设置属性——set(int field,int value):
         Calendar c1 = Calendar.getInstance();//获取当前日期
