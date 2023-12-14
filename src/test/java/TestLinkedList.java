@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
-import 基础.链表.SinglyLinkedList;
+import 基本数据结构.链表.SinglyLinkedList;
 
 public class TestLinkedList {
     private SinglyLinkedList linkedList;

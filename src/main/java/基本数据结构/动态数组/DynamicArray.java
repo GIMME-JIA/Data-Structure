@@ -1,4 +1,4 @@
-package 基础.动态数组;
+package 基本数据结构.动态数组;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

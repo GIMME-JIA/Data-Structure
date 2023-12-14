@@ -1,4 +1,4 @@
-package 基础.栈;
+package 基本数据结构.栈;
 
 import java.util.Iterator;
 

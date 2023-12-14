@@ -1,7 +1,4 @@
-package 基础.链表;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+package 基本数据结构.链表;
 
 import java.util.Iterator;
 import java.util.function.Consumer;

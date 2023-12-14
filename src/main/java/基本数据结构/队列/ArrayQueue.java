@@ -1,4 +1,4 @@
-package 基础.队列;
+package 基本数据结构.队列;
 
 import java.util.Iterator;
 

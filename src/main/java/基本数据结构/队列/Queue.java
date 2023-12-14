@@ -1,4 +1,4 @@
-package 基础.队列;
+package 基本数据结构.队列;
 
 public interface Queue<E> {
 
@@ -28,4 +28,6 @@ public interface Queue<E> {
      * @return 空返回true，反之false
      */
     boolean isEmpty();
+
+    boolean isFull();
 }

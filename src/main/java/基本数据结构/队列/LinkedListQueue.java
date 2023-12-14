@@ -1,4 +1,4 @@
-package 基础.队列;
+package 基本数据结构.队列;
 
 import java.util.Iterator;
 
@@ -82,7 +82,7 @@ public class LinkedListQueue<E> implements Queue<E>, Iterable<E> {
         return head == tail;
     }
 
-    boolean isFull() {
+    public boolean isFull() {
         return size == capacity;
     }
 

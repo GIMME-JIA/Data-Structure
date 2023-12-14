@@ -1,4 +1,4 @@
-package 基础.二分查找;
+package 基本数据结构.二分查找;
 
 import org.junit.jupiter.api.Test;
 

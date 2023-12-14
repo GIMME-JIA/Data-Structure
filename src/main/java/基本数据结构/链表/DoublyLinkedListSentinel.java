@@ -1,4 +1,4 @@
-package 基础.链表;
+package 基本数据结构.链表;
 
 import java.util.Iterator;
 
