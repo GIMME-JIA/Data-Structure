@@ -62,8 +62,8 @@ public class Prim {
     private static void updateNeighbordist(ArrayList<Vertex> list, Vertex curr) {
         for (Edge edge : curr.edges) {
             if (!edge.linked.visited) {
-                if(edge.linked.distance > edge.weight){
-                    edge.linked.distance = edge.weight;     // 比较目标顶点和边的权值
+                if(edge.linked.distance > edge.weight){     // 比较目标顶点和边的权值
+                    edge.linked.distance = edge.weight;
                     edge.linked.pre = curr;     // 记录前一个顶点
                 }
             }
